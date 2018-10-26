@@ -1,0 +1,42 @@
+<LinearLayout xmlns:andoird = "http://schemas.android.com/apk/res/android"
+    andoird:layout_width="match_parent"
+    andoird:layout_height="wrap_content"
+    andoird:layout_margin="15dp"
+    >
+    <TextView
+        andoird:id="@+id/date_text"
+        andoird:layout_width="0dp"
+        andoird:layout_height="wrap_content"
+        andoird:layout_gravity="center_vertical"
+        andoird:layout_weight="2"
+        andoird:textColor="#fff"
+        />
+    <TextView
+        andoird:id="@+id/info_text"
+        andoird:layout_width="0dp"
+        andoird:layout_height="wrap_content"
+        andoird:layout_gravity="center"
+        andoird:layout_weight="1"
+        andoird:gravity="left"
+        andoird:textColor="#fff"
+        />
+    <TextView
+        andoird:id="@+id/max_text"
+        andoird:layout_width="0dp"
+        andoird:layout_height="wrap_content"
+        andoird:layout_gravity="center"
+        andoird:layout_weight="1"
+        andoird:gravity="right"
+        andoird:textColor="#fff"
+        />
+    <TextView
+        andoird:id="@+id/min_text"
+        andoird:layout_width="0dp"
+        andoird:layout_height="wrap_content"
+        andoird:layout_gravity="center"
+        andoird:layout_weight="1"
+        andoird:gravity="right"
+        andoird:textColor="#fff"
+        />
+</LinearLayout>
+
